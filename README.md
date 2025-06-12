@@ -26,13 +26,13 @@ After fine-tuning and saving the model, you can load the fine-tuned model and to
 
 ## Files
 
-*   `your_notebook_name.ipynb` (or your Python script): Contains the code for the entire process, from setup to text generation.
+*   `TextgenerationGPT_2model.ipynb` (or your Python script): Contains the code for the entire process, from setup to text generation.
 *   `./gpt2_finetuned_custom_data/`: This directory will be created after running the fine-tuning process and will contain the saved fine-tuned model and tokenizer files.
 
 ## Usage
 
 1.  Clone this repository.
-2.  Open and run the Jupyter Notebook (`your_notebook_name.ipynb`) or execute the Python script.
+2.  Open and run the Jupyter Notebook (`TextgenerationGPT_2model.ipynb`) or execute the Python script.
 3.  Follow the steps in the notebook/script to load the model, prepare data, fine-tune, save, and generate text.
 4.  Modify the `custom_texts` variable in the notebook to use your own data for fine-tuning.
 5.  Experiment with different prompts and generation parameters in the `generate_text` function.
